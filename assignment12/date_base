@@ -1,6 +1,6 @@
-name    director    IMBD    score  url duration    prise   part(for series)    TV_time(for series)    place(for documentary),
+name    director    IMBD    score   url duration    prise   part(for series)    TV_time(for series) place(for documentary),
 mentalist,chris_long,https://m.imdb.com/title/tt1196946/?ref_=ext_shr_lnk,8.1,https://youtu.be/ZshMuk66SX0,1:00:00,chosen by the people,4season,Simon_baker|Robin_Tunney,9:30
 wednesday,Tim_Burton,https://m.imdb.com/title/tt13443470/?ref_=ext_shr_lnk,8.3,https://youtu.be/0c8IpVyZyHs,00:30:00,golden globe,29part,Jenna Ortega|Erika Lindhome,11:00
-See,Francis Lawrence,https://m.imdb.com/title/tt7949218/?ref_=ext_shr_lnk,7.6,https://youtu.be/nCFJ9dm4aT8,1:30:00,nobel,8part,Joseph Jason|Sylvia Hoeks,none
-park jurassic,Steven Allan,https://m.imdb.com/title/tt0107290/?ref_=ext_shr_lnk,8.2,https://youtu.be/RIxAGZFB2FE,2:00:00,Christopher Michael|Bryce Dallas,oskar
+         !!delete!!park jurassic,Steven Allan,https://m.imdb.com/title/tt0107290/?ref_=ext_shr_lnk,8.2,https://youtu.be/RIxAGZFB2FE,2:00:00,Christopher Michael|Bryce Dallas,oskar
 white lione,Michael Swan,https://m.imdb.com/title/tt1618421/?ref_=ext_shr_lnk,6.5,https://youtu.be/EFkRxl3sRzA,1:47:03,golden horn,noneafrica
+         !!delete!!
