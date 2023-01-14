@@ -35,7 +35,7 @@ class Game(arcade.Window):
         self.coin.draw()
         if self.me.Game_over()=="lose":
             arcade.draw_lrwh_rectangle_textured(0,0,800,600,self.new_bg)
-        if self.me.Win(self.line)=="Win":
+        if self.me.Win(self.sc)=="Win":
             arcade.draw_lrwh_rectangle_textured(0,0,800,600,self.new_bg2)
 
 
