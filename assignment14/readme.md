@@ -7,7 +7,7 @@ you don't have three more chances
  ## enemy
  The enemy wants to attack your plante.
  :earth_africa:
-![picture](file:///C:/Users/imen%20pardazesh/Documents/pic.png)
+![picture](Untitled 112.png)
 
  
  
