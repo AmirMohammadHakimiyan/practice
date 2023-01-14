@@ -58,5 +58,5 @@ class Spaceship(arcade.Sprite):
         if len(self.hearts)==0:
             return "lose"
     def Win(self,line):
-        if len(line)==10:
+        if line==10:
             return "Win"
