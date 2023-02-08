@@ -1,4 +1,5 @@
 import math
+from functools import partial
 from PySide6.QtWidgets import QApplication
 from PySide6.QtUiTools import QUiLoader
 my_app=QApplication([])
@@ -82,56 +83,20 @@ def equal():        #مساوی
         c=int(answer[0])
         c//=int(answer[1])
         my_window.lineEdit.setText(str(c))
-def writ1():
-    m=my_window.lineEdit.text()
-    m+=str(1)
-    my_window.lineEdit.setText(m)
-def writ2():
-    m=my_window.lineEdit.text()
-    m+=str(2)
-    my_window.lineEdit.setText(m)
-def writ3():
-    m=my_window.lineEdit.text()
-    m+=str(3)
-    my_window.lineEdit.setText(m)
-def writ4():
-    m=my_window.lineEdit.text()
-    m+=str(4)
-    my_window.lineEdit.setText(m)
-def writ5():
-    m=my_window.lineEdit.text()
-    m+=str(5)
-    my_window.lineEdit.setText(m)
-def writ6():
-    m=my_window.lineEdit.text()
-    m+=str(6)
-    my_window.lineEdit.setText(m)
-def writ7():
-    m=my_window.lineEdit.text()
-    m+=str(7)
-    my_window.lineEdit.setText(m)
-def writ8():
-    m=my_window.lineEdit.text()
-    m+=str(8)
-    my_window.lineEdit.setText(m)
-def writ9():
-    m=my_window.lineEdit.text()
-    m+=str(9)
-    my_window.lineEdit.setText(m)
-def writ0():
-    m=my_window.lineEdit.text()
-    m+=str(0)
-    my_window.lineEdit.setText(m)
-my_window.pu1.clicked.connect(writ1)
-my_window.pu2.clicked.connect(writ2)
-my_window.pu3.clicked.connect(writ3)
-my_window.pu4.clicked.connect(writ4)
-my_window.pu5.clicked.connect(writ5)
-my_window.pu6.clicked.connect(writ6)
-my_window.pu7.clicked.connect(writ7)
-my_window.pu8.clicked.connect(writ8)
-my_window.pu9.clicked.connect(writ9)
-my_window.pu0.clicked.connect(writ0)
+def write(number):
+    b=str(my_window.lineEdit.text())
+    c=b+str(number)
+    my_window.lineEdit.setText(c)
+my_window.pu1.clicked.connect(partial(write,1))
+my_window.pu2.clicked.connect(partial(write,2))
+my_window.pu3.clicked.connect(partial(write,3))
+my_window.pu4.clicked.connect(partial(write,4))
+my_window.pu5.clicked.connect(partial(write,5))
+my_window.pu6.clicked.connect(partial(write,6))
+my_window.pu7.clicked.connect(partial(write,7))
+my_window.pu8.clicked.connect(partial(write,8))
+my_window.pu9.clicked.connect(partial(write,9))
+my_window.pu0.clicked.connect(partial(write,0))
 my_window.pusum.clicked.connect(sum)
 my_window.puequal.clicked.connect(equal)
 my_window.pusub.clicked.connect(sub)
