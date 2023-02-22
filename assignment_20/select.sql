@@ -1,0 +1,1 @@
+SELECT * FROM store WHERE count != 0
