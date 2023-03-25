@@ -20,4 +20,7 @@ click the button.
 ## stopwatch
 it' can to to reset,stop and start
 ## timer
-It's like the stopwatch just the timer reduces time.![](file:///D:/data%20backup/Desktop/Assignment17/clock.jpg)
+It's like the stopwatch just the timer reduces time.
+
+
+![](file:///D:/data%20backup/Desktop/Assignment17/clock.jpg)
