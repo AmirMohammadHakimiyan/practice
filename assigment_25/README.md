@@ -1,4 +1,4 @@
-# :warning: ***for font you should download this [<u>link</u>](https://dl.dafont.com/dl/?f=digital_7).***
+# :warning: ***for font you should download this [<u>link</u>](https://dl.dafont.com/dl/?f=digital_7). and then run (main.py) file***
 
 
 # ***clock***
