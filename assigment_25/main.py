@@ -122,13 +122,18 @@ class MainWindow(QMainWindow):
         self.ui.pushButton_7.clicked.connect(delete_2)
         self.ui.pushButton_9.clicked.connect(new_timer)
         self.ui.pushButton_10.clicked.connect(delete_3)
-        
+        self.ui.pushButton_12.clicked.connect(stop)
+        self.ui.pushButton_11.clicked.connect(stop)
+def stop ():
+    main_window.ui.lineEdit_6.setText("_"+main_window.ui.lineEdit_6.text()+"        __")      
+    main_window.ui.lineEdit_5.setText("_"+main_window.ui.lineEdit_5.text()+"        __")      
 
 def delete_3 ():
     main_window.ui.lineEdit_6.setText("            "+"00:00:00")
 
 def new_timer ():
-    thread_timer.values(main_window.ui.lineEdit_6.text())
+    M=main_window.ui.lineEdit_6.text().replace("_","")
+    thread_timer.values(M)
     thread_timer.start()
 
 def slot_timer (l):
@@ -136,7 +141,8 @@ def slot_timer (l):
     main_window.ui.lineEdit_6.setText("            "+text)
 
 def new_stopwatch ():
-    thread_stopwatch.values(main_window.ui.lineEdit_5.text())  
+    M=main_window.ui.lineEdit_5.text().replace("_","")
+    thread_stopwatch.values(M)  
     thread_stopwatch.start()
 
 def delete_2 ():

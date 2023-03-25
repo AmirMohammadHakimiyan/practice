@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'test.ui'
+## Form generated from reading UI file 'main_window.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.4.2
 ##
@@ -173,18 +173,30 @@ class Ui_MainWindow(object):
         self.lineEdit_5.setObjectName(u"lineEdit_5")
         self.lineEdit_5.setFont(font1)
 
-        self.formLayout.setWidget(4, QFormLayout.FieldRole, self.lineEdit_5)
+        self.formLayout.setWidget(5, QFormLayout.FieldRole, self.lineEdit_5)
+
+        self.pushButton_11 = QPushButton(self.tab_3)
+        self.pushButton_11.setObjectName(u"pushButton_11")
+        self.pushButton_11.setFont(font3)
+
+        self.formLayout.setWidget(2, QFormLayout.FieldRole, self.pushButton_11)
 
         self.tabWidget.addTab(self.tab_3, "")
         self.tab_4 = QWidget()
         self.tab_4.setObjectName(u"tab_4")
         self.gridLayout_5 = QGridLayout(self.tab_4)
         self.gridLayout_5.setObjectName(u"gridLayout_5")
+        self.lineEdit_6 = QLineEdit(self.tab_4)
+        self.lineEdit_6.setObjectName(u"lineEdit_6")
+        self.lineEdit_6.setFont(font1)
+
+        self.gridLayout_5.addWidget(self.lineEdit_6, 4, 0, 1, 1)
+
         self.pushButton_10 = QPushButton(self.tab_4)
         self.pushButton_10.setObjectName(u"pushButton_10")
         self.pushButton_10.setFont(font3)
 
-        self.gridLayout_5.addWidget(self.pushButton_10, 2, 0, 1, 1)
+        self.gridLayout_5.addWidget(self.pushButton_10, 3, 0, 1, 1)
 
         self.pushButton_9 = QPushButton(self.tab_4)
         self.pushButton_9.setObjectName(u"pushButton_9")
@@ -192,11 +204,11 @@ class Ui_MainWindow(object):
 
         self.gridLayout_5.addWidget(self.pushButton_9, 1, 0, 1, 1)
 
-        self.lineEdit_6 = QLineEdit(self.tab_4)
-        self.lineEdit_6.setObjectName(u"lineEdit_6")
-        self.lineEdit_6.setFont(font1)
+        self.pushButton_12 = QPushButton(self.tab_4)
+        self.pushButton_12.setObjectName(u"pushButton_12")
+        self.pushButton_12.setFont(font3)
 
-        self.gridLayout_5.addWidget(self.lineEdit_6, 3, 0, 1, 1)
+        self.gridLayout_5.addWidget(self.pushButton_12, 2, 0, 1, 1)
 
         self.tabWidget.addTab(self.tab_4, "")
 
@@ -213,7 +225,7 @@ class Ui_MainWindow(object):
 
         self.retranslateUi(MainWindow)
 
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(3)
 
 
         QMetaObject.connectSlotsByName(MainWindow)
@@ -235,12 +247,14 @@ class Ui_MainWindow(object):
         self.pushButton_5.setText(QCoreApplication.translate("MainWindow", u"+", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), QCoreApplication.translate("MainWindow", u"ALARM", None))
         self.pushButton_6.setText(QCoreApplication.translate("MainWindow", u"START", None))
-        self.pushButton_7.setText(QCoreApplication.translate("MainWindow", u"STOP", None))
+        self.pushButton_7.setText(QCoreApplication.translate("MainWindow", u"reset", None))
         self.lineEdit_5.setText(QCoreApplication.translate("MainWindow", u"          00:00:00", None))
+        self.pushButton_11.setText(QCoreApplication.translate("MainWindow", u"stop", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_3), QCoreApplication.translate("MainWindow", u"STOP_WATCH", None))
-        self.pushButton_10.setText(QCoreApplication.translate("MainWindow", u"STOP", None))
-        self.pushButton_9.setText(QCoreApplication.translate("MainWindow", u"START", None))
         self.lineEdit_6.setText(QCoreApplication.translate("MainWindow", u"          00:00:00", None))
+        self.pushButton_10.setText(QCoreApplication.translate("MainWindow", u"reset", None))
+        self.pushButton_9.setText(QCoreApplication.translate("MainWindow", u"START", None))
+        self.pushButton_12.setText(QCoreApplication.translate("MainWindow", u"stop", None))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_4), QCoreApplication.translate("MainWindow", u"TIMER", None))
     # retranslateUi
 
